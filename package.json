@@ -1,0 +1,37 @@
+{
+  "name": "halal-ai-trading-bot-binance",
+  "version": "2.0.0",
+  "description": "Complete Halal AI Trading Bot for Binance - Render Deployment",
+  "main": "backend/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "echo 'Build complete'",
+    "postinstall": "echo 'Installation complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "halal",
+    "islamic",
+    "trading",
+    "binance",
+    "ai",
+    "bot"
+  ],
+  "author": "Halal AI Trading Bot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/halal-trading-bot"
+  }
+}
